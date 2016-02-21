@@ -5,7 +5,7 @@ def usage():
 	Returns an error if run without being given a file name
 	"""
 	print("Error:")
-	print("USAGE: hw1.py filename")
+	print("USAGE: hexdump.py filename")
 	print("exiting...")
 	sys.exit()
 

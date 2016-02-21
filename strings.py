@@ -8,7 +8,7 @@ def usage():
 	- a file name - string
 	"""
 	print("Error:")
-	print("USAGE: hw2.py minimum_length filename")
+	print("USAGE: strings.py minimum_length filename")
 	print("exiting...")
 	sys.exit()
 
@@ -30,7 +30,7 @@ def read(minlength, fd):
 		if not byte:
 			print(output)
 			break
-		if((byte[0] >= 32 and byte[0] <= 126) or (byte[0] == ord("\n")):
+		if((byte[0] >= 32 and byte[0] <= 126) or (byte[0] == ord("\n"))):
 			output+=chr(byte[0])
 		else:
 			if(byte[0] == 00 and prev != 00):

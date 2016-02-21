@@ -108,10 +108,10 @@ bytes_per_component = (0,1,1,2,4,8,1,1,2,4,8,4,8)
 
 def usage():
 	"""
-        Returns an error if run without being given a JPEG
+    Returns an error if run without being given a JPEG
 	"""
 	print("Error:")
-	print("USAGE: hw3.py image.jpg")
+	print("USAGE: EXIF_data.py image.jpg")
 	print("exiting...")
 	sys.exit()
 

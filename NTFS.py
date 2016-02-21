@@ -10,7 +10,7 @@ def usage():
 	Returns an error if run without being given an entry# and an NTFS image
 	'''
 	print("Error:")
-	print("USAGE: hw5.py entry_number NTFS_image")
+	print("USAGE: NTFS.py entry_number NTFS_image")
 	print("exiting...")
 	sys.exit()
 
