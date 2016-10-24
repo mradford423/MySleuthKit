@@ -10,6 +10,7 @@ def usage():
 	'''
 	print("Error:")
 	print("USAGE: FAT16.py image")
+	print("Try using testing/6-fat-undel.dd")
 	print("exiting...")
 	sys.exit()
 
