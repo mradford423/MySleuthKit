@@ -23,3 +23,4 @@ Alternatively for larger files: <pre><code>python3 hexdump.py file | more</code>
 <h2>Strings</h2>
 <pre><code>python3 strings.py minimum_line_length file</pre></code>
 <p>This tool prints out an ASCII representation of the contents of a file, similar to the 'strings' command in Linux. It does this by parsing the file, byte-by-byte, and if it gets a line longer than the user given minimum length, it prints the line. This will often result in unreadable data, but is still useful to an investigator, as the things that are readable could be useful evidence.</p>
+
