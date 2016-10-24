@@ -11,6 +11,7 @@ def usage():
 	'''
 	print("Error:")
 	print("USAGE: NTFS.py entry_number NTFS_image")
+	print("Try using testing/ntfs-img-kw-1.dd")
 	print("exiting...")
 	sys.exit()
 

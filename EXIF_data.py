@@ -112,6 +112,7 @@ def usage():
 	"""
 	print("Error:")
 	print("USAGE: EXIF_data.py image.jpg")
+	print("Try using testing/test1.jpg or testing/test2.jpg")
 	print("exiting...")
 	sys.exit()
 
