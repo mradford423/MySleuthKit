@@ -1,6 +1,6 @@
 <h1> Overview </h1>
 <p>This is my sleuth kit used for Digital Forensics, CS 365. Some of the materials in the testing directory are borrowed from testing material used for the course.</p>
-<p>MySleuthKit consists of various tools that could be used in a real world forensics situation to examine things such as JPEG images, disk images, or various other types of files. Some of my tools are based on existing functions of The Sleuth Kit (http://www.sleuthkit.org/sleuthkit/), which is a collection of tools written in C used in digital investigations. Other tools are based on existing Linux commands that are useful when looking for evidence. Please note that these commands were written in Python 3.2, and will likely not work on any version of Python earlier than 3.</p>
+<p>MySleuthKit consists of various tools that could be used in a real world forensics situation to examine things such as JPEG images, disk images, or various other types of files. Some of my tools are based on existing functions of The Sleuth Kit (http://www.sleuthkit.org/sleuthkit/), which is a collection of tools written in C used in digital investigations. Other tools are based on existing Linux commands that are useful when looking for evidence. Please note that these commands were written in Python 3.2, and some syntax will not work on any version of Python earlier than 3.</p>
 
 <h1> The Tools </h1>
 <h2>EXIF_data</h2>
