@@ -14,7 +14,7 @@ def usage():
 
 def read(minlength, fd):
 	"""
-	reads from the given file 1 byte at a time
+	reads from the given file descriptor 1 byte at a time
 	if the byte is a printable ASCII character, it gets added to the output string
 	if the byte is a printable ASCII character, and the following byte is 00,
 		then it is treated as a little endian unicode character, and 
